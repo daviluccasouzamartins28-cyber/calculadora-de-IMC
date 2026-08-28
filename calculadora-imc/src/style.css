@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+#container{
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+button{
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F9F9F9;
+    transition: 0.5s;
+}
+
+#buttonCalcular{
+    background-color: #A9A9A9;
+}
+
+#buttonCalcular:hover{
+    background-color: #D9D9D9;
+    transition: 1s;
+}
